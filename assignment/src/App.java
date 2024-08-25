@@ -19,5 +19,14 @@ public class App {
         //Q2
         VersionComparator versionComparator = new VersionComparator();
         System.out.println(versionComparator.compareVersions("0.1.0", "0.0.1"));
+
+        //Q3
+        ClimbingStairs climbingStairs = new ClimbingStairs();
+        int n = 5;
+        System.out.println("n = " + n + " total step: " + climbingStairs.countWays(n));
+
+        //Q4
+        //ส่วนตัวคิดว่าข้อที่ 3 ยากสุดเพราะเป็นขอบเขตการนำไปใช้ที่ ส่วนตัวแล้วในการทำงานของผมที่ทำอยู่ไม่ค่อยได้ใช้
+        //วิธีที่ใช้แก้ปัญหาถาม gpt แต่ว่าผมเองก็ต้องทำความเข้าใจกับหลักการของ code และที่สำคัญคือพยามหาว่าเอาไปใช้ในเรื่องอะไรได้บ้างกับหลักการทำงานนี้
     }
 }
